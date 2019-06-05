@@ -7,15 +7,14 @@
 //
 
 #include <iostream>
-#include "longest_circumference_of_triangle.h"
+#include "poj_1852_ants.h"
 
 int main(int argc, const char * argv[]) {
-    while (cin >> n) {
+    while (cin >> L >> n) {
         for(int i = 0;i < n; i++){
-            cin >> a[i];
+            cin >> x[i];
         }
         
-        int ans = solve();
-        cout << ans << '\n';
+        solve();
     }
 }
