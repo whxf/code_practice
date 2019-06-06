@@ -32,14 +32,15 @@
 using namespace std;
 int n, a[MAX_IN];
 
-int solve(){
+void solve(){
     sort(a, a + n);
     for(int i = n - 3; i >= 0; i--){
         if(a[i] + a[i+1] > a[i+2]){
-            return a[i] + a[i+1] + a[i+2];
+            cout << a[i] + a[i+1] + a[i+2] << '\n';
+            return;
         }
     }
-    return 0;
+    cout << 0 << '\n';
 }
 
 #endif /* longest_circumference_of_triangle_h */
