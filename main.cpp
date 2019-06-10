@@ -7,14 +7,13 @@
 //
 
 #include <iostream>
-#include "poj_1852_ants.h"
+#include "partial_summation.h"
 
 int main(int argc, const char * argv[]) {
-    while (cin >> L >> n) {
+    while (cin >> n >> k) {
         for(int i = 0;i < n; i++){
-            cin >> x[i];
+            cin >> a[i];
         }
-        
         solve();
     }
 }
