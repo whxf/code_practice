@@ -28,8 +28,12 @@
  的最大值。 
  */
 
+#include <iostream>
+
 #define MAX_IN 1000000
 #define MAXN 0x7FFFFFFF
+
+
 int L, n, x[MAX_IN];
 
 using namespace std;

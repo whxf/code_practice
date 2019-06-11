@@ -16,6 +16,8 @@
  依次判断a_i加或者不加，最后判断求和结果是不是k即可，时间复杂度是O(2^n)。
  */
 
+#include <iostream>
+
 #define MAX_IN 20
 
 using namespace std;

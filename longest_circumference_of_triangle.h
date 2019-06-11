@@ -26,7 +26,9 @@
  边。
  */
 
+#include <iostream>
 #include<algorithm>
+
 #define MAX_IN 100
 
 using namespace std;
