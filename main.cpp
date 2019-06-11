@@ -6,7 +6,7 @@
 //  Copyright © 2019 李熙. All rights reserved.
 //
 
-#include "poj_2386_lake_counting.h"
+#include "shortest_path.h"
 
 int main(int argc, const char * argv[]) {
     while (cin >> n >> m) {
@@ -14,15 +14,15 @@ int main(int argc, const char * argv[]) {
             string tmp;
             cin >> tmp;
             for(int j = 0;j < m; j++){
-                if(tmp[j] == 'W'){
-                    field[i][j] =  1;
-                }
-                else{
-                    field[i][j] =  0;
-                }
+                field[i][j] =  tmp[j];
             }
         }
-        
+        for(int i=0;i < n;i++){
+            for(int j=0;j < m;j++){
+                cout<<field[i][j];
+            }
+            cout << '\n';
+        }
         solve();
     }
     
