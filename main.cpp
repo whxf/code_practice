@@ -7,25 +7,17 @@
 //
 
 
-#include "shortest_path.h"
-
-
+#include "poj_1979_red_and_black.h"
 
 int main(int argc, const char * argv[]) {
-    while (cin >> n >> m) {
-        for(int i = 0;i < n; i++){
-            string tmp;
-            cin >> tmp;
-            for(int j = 0;j < m; j++){
-                field[i][j] =  tmp[j];
-            }
+    while (scanf("%d%d", &W, &H)) {
+        if(W == 0) break;
+        getchar();
+        
+        for(int i = 0;i < H; i++){
+            gets(tiles[i]);
         }
-        for(int i=0;i < n;i++){
-            for(int j=0;j < m;j++){
-                cout<<field[i][j];
-            }
-            cout << '\n';
-        }
+        
         solve();
     }
     
