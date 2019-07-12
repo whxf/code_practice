@@ -7,7 +7,7 @@
 //
 
 
-#include "poj_3669_meteor_shower.h"
+#include "穷竭搜索/poj_3669_meteor_shower.h"
 
 int main(int argc, const char * argv[]) {
     solve();
