@@ -7,7 +7,7 @@
 //
 
 
-#include "poj_3009_curling_2_0.h"
+#include "poj_3669_meteor_shower.h"
 
 int main(int argc, const char * argv[]) {
     solve();
