@@ -7,7 +7,7 @@
 //
 
 
-#include "穷竭搜索/poj_2718_smallest_difference.h"
+#include "穷竭搜索/poj_3187_backward _digit _sums.h"
 
 int main(int argc, const char * argv[]) {
     solve();
